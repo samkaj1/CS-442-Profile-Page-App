@@ -120,36 +120,3 @@ Although not mandatory, it's highly recommended that you define more than one cu
 Since the page is static, functional testing is unnecessary. We will evaluate your submission by compiling and running it in a supported Flutter platform (e.g., MacOS, Windows, iOS, Android, or web) and visually inspecting the displayed page. We will view the page in a window of at least 1024x768 pixels, so ensure that your layout is legible at that size and has no overflow issues (scrolling is acceptable if needed).
 
 Ensure that your code compiles and runs without errors before submitting it.
-
-## Grading
-
-This machine problem is worth 24 points. Your grade will be based on the following criteria:
-
-- 8 points: The page layout complies with the specified requirements, and all information is displayed legibly.
-
-- 8 points: Your code structure effectively separates layout from data, involving the use of data model classes and avoiding hardcoding user data within widget implementations.
-
-- 8 points: Your code is well-structured, easy to read, and employs the required widgets and widget structures effectively.
-
-If your code does not compile, you will receive a zero for the assignment. If your code compiles but does not meet the requirements, you will receive partial credit based on the extent to which it does.
-
-## Submission
-
-To submit your machine problem, commit and push your code to your private GitHub repository shared with us. You can make as many commits and pushes as needed; we will assess the most recent version of your code pushed before the deadline.
-
-If you plan to use late submission days, remember to complete [a late day notice form](https://forms.gle/vUJjE2zAmqKc6Dfw6) before the deadline.
-
-
-## Hints / Tips
-
-- Refer to the "[Layout](https://docs.flutter.dev/ui/layout)" section and "[Building Layouts](https://docs.flutter.dev/ui/layout/tutorial)" tutorial for valuable insights into using various layout widgets.
-
-- To include images in your page, place them in the `assets/images` directory of your project. Ensure that you add and commit them using Git. Displaying them is a matter of constructing `Image` widgets with appropriate paths, like this:
-  
-  ```dart
-  Image.asset('assets/images/my-image.png')
-  ```
-
-  See the [Adding assets and images](https://flutter.dev/docs/development/ui/assets-and-images) page in the Flutter documentation for more details.
-
-- Utilize VSCode's "Extract Widget" refactoring tool to assist in isolating sections of your code into separate widget classes. This approach is demonstrated in the "[Your first Flutter app](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0)" codelab assigned for the previous week.
